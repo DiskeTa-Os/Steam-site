@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/steam_sign-in/css/steam_sign-in.css">
+</head>
+
+<body>
+    <header class="steam__header">
+        <!-- Header up -->
+        <div class="header__up">
+            <!-- Header logo -->
+            <div class="header__logo">
+                <img src="/img/header/logo/logo-steam.svg" alt="steam-logo" class="header__logo-img">
+                <p class="header__logo-name">STEAM</p>
+                <p class="header__logo-name-r">®</p>
+            </div>
+            <!-- Header Nav -->
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <ol class="header__link"><a href="#" class="header__link-item header__link-store">Store</a></ol>
+                    <ol class="header__link"><a href="#" class="header__link-item header__link-community">Community</a>
+                    </ol>
+                    <ol class="header__link"><a href="#" class="header__link-item header__link-name">XXXXXX</a></ol>
+                    <ol class="header__link"><a href="#" class="header__link-item header__link-library">Library</a></ol>
+                    <ol class="header__link"><a href="#" class="header__link-item header__link-download">Downloads</a>
+                    </ol>
+                </ul>
+            </nav>
+            <!-- Header Acc -->
+            <div class="header__acc-group">
+                <div class="header__acc">
+                    <img src="/img/header/avatar/ava_1.png" alt="" class="header__acc-image">
+                    <a class="header__acc-name" href="/steam_registration/steam_registration.html">Login</a>
+                    <p class="header__acc-balance">$5.46</p>
+                    <img src="/img/header/acc group/vector-down.svg" alt="" class="header__acc-down">
+                </div>
+            </div>
+            <div class="header__help-and-view">
+                <a href="#" class="header__help">Help</a>
+                <a href="#" class="header__view">View <img src="/img/header/acc group/vector-down-ser.svg" alt=""></a>
+            </div>
+        </div>
+        <!-- Header down -->
+        <div class="header__down">
+            <!-- Header search -->
+            <form class="header__search-form">
+                <input type="text" placeholder="Search..." class="headre__store-search">
+                <img src="img/header/serch and options/search.svg" alt="loupe" class="headre__store-search-loupe">
+            </form>
+            <!-- Header options -->
+            <div class="header__options">
+                <a href="/steam_registration/steam_registration.html" class="header__options-group">Wishlist</a>
+                <a href="/steam_registration/steam_registration.html" class="header__options-group">Cart</a>
+                <a href="#" class="header__options-button"><img src="./img/header/serch and options/options.svg"
+                        alt="options" class="header__options-image"></a>
+            </div>
+        </div>
+    </header>
+    <!-- Main -->
+    <main class="main__reg_steam">
+
+        <div class="main__login_group">
+            <p class="main__login_menu-title">Sign in</p>
+            <div class="main__login_menu">
+                <form class="main__login_sign_group">
+                    <div class="zaglushka">
+                        <label for="login" class="main__login_sign_label" id="login">Sign in with
+                            account name</label>
+                        <input type="text" name="login" class="main__login_sign_input main__login_sign_label-name">
+                    </div>
+                    <div class="zaglushka">
+                        <label for="password" class="main__login_sign_label" id="password">password</label>
+                        <input type="password" name="password" class="main__login_sign_input main__login_sign_label-password">
+                    </div>
+                    <div class="zaglushka_2">
+                        <div class="aliha">Please check your password and account name and try again.</div>
+                    </div>
+                    <button type="button" onclick="Vivaarium()" class="main__login_sign_button">Sign in</button>
+                    <a href="#" class="main__login_sign_help">Help, I can't sign in</a>
+                </form>
+                <div class="main__login_sign_qr-code-group">
+                    <p class="main__login_sign_qr-code-title">Or sign in with QR</p>
+                    <img src="img/main/qr-code/qrcode.svg" alt=""
+                        class="main__login_sign_qr-code-image">
+                    <p class="main__login_sign_qr-code-text">Use the <a href="#"
+                            class="main__login_sign_qr-code-text-a">Steam Mobile</a> to sign in via QR Code</p>
+                </div>
+            </div>
+        </div>
+        <div class="main__reg_menu">
+            <div class="main__reg-group">
+                <p class="main__reg-title">New to Steam?</p>
+                <a href="/steam_create/steam_create.html"><button class="main__reg-button">Create an account</button></a>
+            </div>
+            <p class="main__reg_menu-text">It's free and easy. Discover thousands of <br> games to play with millions of new
+                friends. <br> <a href="" class="main__reg_menu-text-a">Learn more about Steam</a> </p>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer class="steam__footer">
+        <div class="footer__logo-group">
+            <div class="footer__logo-image-group">
+                <img src="/img/footer/valve_log.svg" alt="">
+                <img src="/img/footer/steam_logo.svg" alt="">
+            </div>
+            <p class="footer__logo-text">© 2023 Valve Corporation. All rights reserved. <br> All trademarks are property
+                of
+                their respective <br> owners in the US and other countries. <br>
+                VAT included in all prices where applicable.</p>
+        </div>
+        <ul class="footer__links">
+            <ol><a href="#" class="footer__link">About Valve</a></ol>
+            <ol><a href="#" class="footer__link">Jobs</a></ol>
+            <ol><a href="#" class="footer__link">Steamworks</a></ol>
+            <ol><a href="#" class="footer__link">Steam Distribution</a></ol>
+            <ol><a href="#" class="footer__link">Support</a></ol>
+        </ul>
+        <ul class="footer__links">
+            <ol><a href="#" class="footer__link">Privacy Policy</a></ol>
+            <ol><a href="#" class="footer__link">Legal</a></ol>
+            <ol><a href="#" class="footer__link">Steam Subscriber Agreement</a></ol>
+            <ol><a href="#" class="footer__link">Refunds</a></ol>
+            <ol><a href="#" class="footer__link">Cookies</a></ol>
+        </ul>
+        <div class="footer__mesage">
+            <a href="#" class="footer__link-facebook"><img src="/img/footer/facebook_logo.svg" alt=""></a>
+            <a href="#" class="footer__link-twitter"><img src="/img/footer/twitter_logo.svg" alt=""></a>
+        </div>
+    </footer>
+</body>
+<script src="/steam_sign-in/js/js.js"></script>
+</html>
