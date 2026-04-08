@@ -328,7 +328,7 @@ body {
 .main__hero-block {
     width: 100%;
     height: 600px;
-    background-image: url(".img/main/hero block/summer-sale-banner.gif");
+    background-image: url("./img/main/hero block/summer-sale-banner.gif");
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
